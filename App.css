@@ -1,0 +1,65 @@
+body {
+    background-color: #3d3d3d;
+}
+
+.App {
+    border: 1px solid #1f1f1f;
+    font-weight: 600;
+    font-size: 2em;
+    margin: 55px 40px;
+    padding: 25px 15px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.to-do-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.to-do-container ul li {
+    text-align: center;
+    color: aliceblue;
+    width: 170px;
+    overflow-wrap: break-word;
+    list-style-type: "✍️ ";
+    cursor: pointer;
+}
+
+.done {
+    color: green;
+    text-decoration: line-through;
+}
+
+.btn {
+    padding: 5px;
+    width: 17%;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25), inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset -3px -3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.in {
+    align-items: center;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25), inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset -3px -3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.item {
+    font-size: 0.7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trash {
+    cursor: pointer;
+}
